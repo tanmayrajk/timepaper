@@ -1,0 +1,23 @@
+{
+    "name": "timepaper",
+    "version": "0.0.0",
+    "description": "a time progress bar wallpaper generator",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "type": "module",
+    "author": "tanmayrajkrishna",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^18.16.0",
+        "prettier": "^2.8.8",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "@types/luxon": "^3.3.0",
+        "canvas": "^2.11.2",
+        "luxon": "^3.3.0",
+        "wallpaper": "^6.1.1"
+    }
+}
