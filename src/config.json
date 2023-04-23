@@ -1,0 +1,14 @@
+{
+    "screen": { "width": 1920, "height": 1080 },
+    "themes": {
+        "dracula": { "bg": "#282a36", "border": "#44475a", "fill": "#ff79c6" }
+    },
+    "options": {
+        "type": "minute",
+        "theme": "dracula",
+        "width": 600,
+        "height": 30,
+        "spacing": 10,
+        "border": 5
+    }
+}
