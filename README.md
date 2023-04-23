@@ -1,7 +1,8 @@
 # timepaper
 
-![screenshot](screenshot.png)
 a customisable time progress bar on your desktop that can show the progress of year, month, day, hour and minute.
+
+![screenshot](screenshot.png)
 
 ## installation
 
