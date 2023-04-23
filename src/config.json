@@ -10,5 +10,6 @@
         "height": 30,
         "spacing": 10,
         "border": 5
-    }
+    },
+    "refresh": 1
 }

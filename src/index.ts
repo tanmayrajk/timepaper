@@ -131,4 +131,4 @@ async function draw() {
 
 setInterval(() => {
     draw();
-}, 1000);
+}, config.refresh * 1000);
