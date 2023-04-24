@@ -91,6 +91,13 @@ const calcProgressWidth = () => {
     return size;
 };
 
+const logTime = () => {
+    const now = DateTime.now();
+    return `${now.hour.toString().padStart(2, '0')}:${now.minute
+        .toString()
+        .padStart(2, '0')}:${now.second.toString().padStart(2, '0')}`;
+};
+
 async function draw() {
     // Draw the background
     ctx.fillStyle = config.themes[config.options.theme].bg;
@@ -131,4 +138,5 @@ async function draw() {
 
 setInterval(() => {
     draw();
+    console.log(`changed wallpaper at ${logTime()}`);
 }, config.refresh * 1000);
